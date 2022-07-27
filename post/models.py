@@ -17,7 +17,6 @@ class Post(models.Model):
         return self.title
 
 
-class Post_second(models.Model):
-    title=models.CharField(max_length=120)
+
 
         
